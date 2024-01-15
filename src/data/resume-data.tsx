@@ -1,28 +1,11 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Vadlamani Uday Kumar",
   initials: "VU",
   location: "Visakhapatnam, Andhra Pradesh, India",
+  personalWebsiteUrl: "",
   locationLink: "https://maps.app.goo.gl/G3hmuXxrdWuAmBRdA",
   about:
     "2023 Bachelor of Computer Applications (BCA) Graduate with interest in programming and software design. I am hardworking, reliable and can pick up new techniques and technologies very quickly.",
@@ -32,7 +15,7 @@ export const RESUME_DATA = {
 
   contact: {
     email: "vadlamaniuday04@gmail.com",
-    tel: "+917415366909",
+    tel: "+91-7415366909",
     social: [
       {
         name: "GitHub",
@@ -90,7 +73,7 @@ export const RESUME_DATA = {
         "PostMan",
       ],
       description: "Designed and implemented a Spring Boot application for department management to improve my understanding in Spring Boot",
-      logo: ConsultlyLogo,
+
       link: {
         label: "consultly.com",
         href: "https://github.com/vadlamaniuday/springBoot",
