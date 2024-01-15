@@ -98,7 +98,7 @@ export const RESUME_DATA = {
       // logo: JarockiMeLogo,
       link: {
         label: "favTunes",
-        href: "https://fav-tunes.vercel.app/",
+        href: "https://fav-tunes.vercel.app",
       },
     },
    
