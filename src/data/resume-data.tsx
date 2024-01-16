@@ -82,22 +82,44 @@ export const RESUME_DATA = {
     {
       title: "Sorting Visualizer",
       techStack: ["Side Project", "Javascript", "Bootstrap", "Chart.js", "HTML", "CSS"],
-      description:
-        "Sorting Algorithms Visualizer using Javascript and Chart.js",
-      // logo: MonitoLogo,
+      description: [
+        "Developed a sorting visualizer using Chart.js",
+        "Implemented various sorting algorithms for visualization",
+        "Designed a user-friendly interface with Bootstrap",
+      ],
+
       link: {
-        label: "heartfelt-alpaca",
-        href: "https://heartfelt-alpaca-030a38.netlify.app/",
+        label: "sorting-algo-visualizer",
+        href: "https://sorting-algo-visualizer-uday.netlify.app",
+      },
+    },
+    {
+      title: "Weather App",
+      techStack: ["Side Project", "HTML", "Bootstrap", "JavaScript"],
+      description:
+      [
+        "Integrated OpenWeatherMap APIs for accurate weather data",
+        "Designed a user-friendly interface using Bootstrap",
+      ],
+      // logo: JarockiMeLogo,
+      link: {
+        label: "weather-app",
+        href: "https://weather-app-uday.netlify.app",
       },
     },
     {
       title: "FavTunes",
       techStack: ["Side Project", "Python", "Django", "BootStrap", "PostgreSQL"],
       description:
-        "Created a Django Project which shows the user's favorite songs and artists",
+      [
+        "Implemented a Django based web application which allows users to add their favorite songs and artists",
+        "Utilized Bootstrap for designing the UI",
+        "Utilized PostgreSQL for storing the data",
+      ],
+        
       // logo: JarockiMeLogo,
       link: {
-        label: "favTunes",
+        label: "fav-tunes",
         href: "https://fav-tunes.vercel.app/",
       },
     },
