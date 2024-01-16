@@ -37,7 +37,13 @@ export function ProjectCard({ title, description, tags, link }: Props) {
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
           <CardDescription className="font-mono text-xs">
-            {description}
+          {Array.isArray(description) ? (
+    description.map((item, index) => (
+      <p key={index}>{item}</p>
+    ))
+  ) : (
+    <p>{description}</p>
+  )}
           </CardDescription>
         </div>
       </CardHeader>
