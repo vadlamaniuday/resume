@@ -48,7 +48,12 @@ export const RESUME_DATA = {
       start: "Feb 2023",
       end: "May 2023",
       description:
-        "Implemented new features, developed backend APIs and frontend SPAs and more. Technologies: React, Django REST Framework, PostgreSQL",
+       [
+        "Developed several REST APIs using Django REST Framework and PostgreSQL to store data from Teaching Management systems",
+        "Wrote SQL Queries in PostgresQL for query optimisation",
+        "Tested API Endpoints using Postman",
+        "Engaged in code reviews and in agile settings",
+       ]
     },
     
   ],
@@ -72,7 +77,11 @@ export const RESUME_DATA = {
         "Hibernate",
         "PostMan",
       ],
-      description: "Designed and implemented a Spring Boot application for department management to improve my understanding in Spring Boot",
+      description: [
+        "Developed RESTful APIs with data validation and error handling, in Java and SpringBoot",
+        "Conducted successful testing of the APIs with the help of Postman",
+        "Successfully integrated relational databases using Spring Data JPA."
+      ],
 
       link: {
         label: "consultly.com",
