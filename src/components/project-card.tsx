@@ -6,6 +6,7 @@ import {
   CardTitle,
 } from "./ui/card";
 import { Badge } from "./ui/badge";
+import React from "react";
 
 interface Props {
   title: string;
@@ -37,11 +38,12 @@ export function ProjectCard({ title, description, tags, link }: Props) {
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
           <CardDescription className="font-mono text-xs">
-          {<ul>
-        {description.map((item, index) => (
-          <li key={index}>{item}</li>
-        ))}
-      </ul>}
+            {description.map((item, index) => (
+              <React.Fragment key={index}>
+                {item}
+                <br />
+              </React.Fragment>
+            ))}
           </CardDescription>
         </div>
       </CardHeader>
